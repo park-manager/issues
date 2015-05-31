@@ -1,0 +1,29 @@
+#!/usr/bin/env php
+<?php
+
+/*
+ * This file is part of the ParkManager project.
+ *
+ * (c) Sebastiaan Stok <s.stok@rollerscapes.net>
+ *
+ * This source file is subject to the MIT license that is bundled
+ * with this source code in the file LICENSE.
+ */
+
+set_time_limit(0);
+
+require_once __DIR__.'/../var/bootstrap.php.cache';
+
+use Aequasi\Environment\SymfonyEnvironment;
+use ParkManager\Core\EntryPoints\Cli\CliApplication;
+use Symfony\Component\Console\Input\ArgvInput;
+use Symfony\Component\Debug\Debug;
+
+$input = new ArgvInput();
+$environment = new SymfonyEnvironment($input, 'APP_ENV', 'app.env');
+
+if ($environment->isDebug()) {
+    Debug::enable();
+}
+
+(new CliApplication(new AppKernel($environment->getType(), $environment->isDebug())))->run($input);

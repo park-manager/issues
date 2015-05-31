@@ -1,0 +1,21 @@
+* text=auto
+
+# Always use LF
+core.autocrlf=lf
+
+# Directories
+/tests export-ignore
+/spec export-ignore
+/features export-ignore
+/.phpspec export-ignore
+
+# Files
+.gitignore export-ignore
+.gitattributes export-ignore
+.php_cs.dist export-ignore
+.editorconfig export-ignore
+phpunit.xml.dist export-ignore
+phpspec.yml export-ignore
+phpcs.xml export-ignore
+.bldr.* export-ignore
+.gush.yml export-ignore

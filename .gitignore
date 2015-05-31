@@ -1,0 +1,17 @@
+/web/bundles/
+/web/assets/
+/app/config/parameters.yml
+/var/*
+!var/.gitkeep
+!var/cache/.gitkeep
+!var/logs/.gitkeep
+/vendor/
+/bin/*
+!bin/console
+
+# Files
+*.phar
+phpunit.xml
+
+# ignore composer.lock as this will change very often
+/composer.lock

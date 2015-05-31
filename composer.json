@@ -1,0 +1,81 @@
+{
+    "name": "park-manager/parkmanager",
+    "description": "Open-source hosting solution",
+    "keywords": ["ftp", "mail", "server", "hosting"],
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sebastiaan Stok",
+            "email": "s.stok@rollercapes.net"
+        },
+        {
+            "name": "ParkManager project",
+            "homepage": "http://www.park-manager.com/"
+        },
+        {
+            "name": "Community contributions",
+            "homepage": "https://github.com/park-manager/parkmanager/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "symfony/symfony": "~2.7",
+        "doctrine/orm": "~2.5",
+        "doctrine/dbal": "^2.5.0",
+        "doctrine/doctrine-bundle": "~1.5",
+        "symfony/swiftmailer-bundle": "^2.3.8",
+        "symfony/monolog-bundle": "^2.7.1",
+        "sensio/distribution-bundle": "^3.0.25",
+        "incenteev/composer-parameter-handler": "~2.0",
+        "aequasi/environment": "~2.0"
+    },
+    "require-dev": {
+        "behat/behat": "~3.0.0",
+        "behat/symfony2-extension": "~2.0.0",
+        "behat/mink-extension": "~2.0.1",
+        "behat/mink-browserkit-driver": "~1.2.0",
+        "behat/mink": "~1.6.1",
+        "phpspec/phpspec": "~2.1.1",
+        "matthiasnoback/symfony-service-definition-validator": "~1.2.2",
+        "sensiolabs/behat-page-object-extension": "~2.0@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "ParkManager\\": ["src/", "app/"]
+        }
+    },
+    "autoload-dev": {
+        "classmap": ["app/AppKernel.php", "app/AppCache.php"]
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets"
+        ],
+        "post-update-cmd": [
+            "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets"
+        ]
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "extra": {
+        "symfony-app-dir": "app",
+        "symfony-bin-dir": "bin",
+        "symfony-var-dir": "var",
+        "symfony-web-dir": "web",
+        "symfony-assets-install": "relative",
+        "incenteev-parameters": {
+            "file": "app/config/parameters.yml"
+        },
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    }
+}

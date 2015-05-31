@@ -1,0 +1,21 @@
+# Gush configuration file, any comments will be lost.
+meta-header: "This file is part of the ParkManager project.\n\n(c) Sebastiaan Stok <s.stok@rollerscapes.net>\n\nThis source file is subject to the MIT license that is bundled\nwith this source code in the file LICENSE."
+repo_adapter: github
+issue_tracker: github
+repo_org: park-manager
+repo_name: parkmanager
+issue_project_org: park-manager
+issue_project_name: parkmanager
+pr_type:
+    - minor
+    - bug
+    - feature
+    - refactor
+    - style
+    - security
+table-pr:
+    bug_fix: ['Bug Fix?', no]
+    new_feature: ['New Feature?', no]
+    bc_breaks: ['BC Breaks?', no]
+    deprecations: ['Deprecations?', no]
+    fixed_tickets: ['Fixed Tickets', '']

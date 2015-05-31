@@ -1,0 +1,6 @@
+# www.robotstxt.org/
+# www.google.com/support/webmasters/bin/answer.py?hl=en&answer=156449
+
+# Don't allow any crawler as this section is secured
+User-agent: *
+Disallow: /
