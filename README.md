@@ -13,7 +13,7 @@ And most of all is safe to use, no hidden back-doors, and secure by design.
 Requirements
 ------------
 
-ParkManager requires at least PHP 5.5.9, PostgreSQL 9.3 and one or more
+ParkManager requires at least PHP 5.6, PostgreSQL 9.3 and one or more
 hosting servers for managing.
 
 *For specific hosting features you may need to install additional
