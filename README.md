@@ -1,6 +1,8 @@
 ParkManager 
 ===========
 
+[![Join the chat at https://gitter.im/park-manager/parkmanager](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/park-manager/parkmanager?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 **NOT YET READY FOR PRODUCTION! Things may brake from time to time.**
 
 ParkManager is an open source Hosting-software solution for PHP,
