@@ -4,14 +4,11 @@
     "keywords": ["ftp", "mail", "server", "hosting"],
     "type": "project",
     "license": "MIT",
+    "homepage": "http://www.park-manager.com/",
     "authors": [
         {
             "name": "Sebastiaan Stok",
             "email": "s.stok@rollercapes.net"
-        },
-        {
-            "name": "ParkManager project",
-            "homepage": "http://www.park-manager.com/"
         },
         {
             "name": "Community contributions",
