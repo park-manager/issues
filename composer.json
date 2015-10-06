@@ -17,7 +17,7 @@
     ],
     "require": {
         "php": ">=5.6",
-        "symfony/symfony": "~2.7",
+        "symfony/symfony": "~2.8",
         "doctrine/orm": "~2.5",
         "doctrine/dbal": "^2.5.0",
         "doctrine/doctrine-bundle": "~1.5",
@@ -59,9 +59,6 @@
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets"
         ]
     },
-    "config": {
-        "bin-dir": "bin"
-    },
     "extra": {
         "symfony-app-dir": "app",
         "symfony-bin-dir": "bin",
@@ -74,5 +71,7 @@
         "branch-alias": {
             "dev-master": "0.1-dev"
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
