@@ -55,7 +55,7 @@ abstract class Kernel extends BaseKernel
     public function getCacheDir()
     {
         if ($this->isVagrantEnvironment()) {
-            return '/dev/shm/park-manager/cache/'.$this->getEnvironment();
+            return '/dev/shm/parkmanager/cache/'.$this->getEnvironment();
         }
 
         return parent::getCacheDir();
