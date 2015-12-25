@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the ParkManager project.
+ * This file is part of the Park-Manager project.
  *
  * (c) Sebastiaan Stok <s.stok@rollerscapes.net>
  *
@@ -30,21 +30,26 @@ class AppKernel extends Kernel
         return array_merge(parent::registerBundles(), $bundles);
     }
 
+    public function getRootDir()
+    {
+        return __DIR__;
+    }
+
     public function getCacheDir()
     {
         if ($this->isVagrantEnvironment()) {
-            return '/dev/shm/parkmanager/cache/'.$this->environment;
+            return '/dev/shm/park-manager/cache/'.$this->getEnvironment();
         }
 
-        return __DIR__.'/../var/cache/'.$this->environment;
+        return dirname(__DIR__).'/var/cache/'.$this->getEnvironment();
     }
 
     public function getLogDir()
     {
         if ($this->isVagrantEnvironment()) {
-            return '/dev/shm/parkmanager/logs';
+            return '/dev/shm/park-manager/logs';
         }
 
-        return __DIR__.'/../var/logs';
+        return dirname(__DIR__).'/var/logs';
     }
 }

@@ -10,7 +10,7 @@
          beStrictAboutTodoAnnotatedTests="true"
 >
     <testsuites>
-        <testsuite name="ParkManager Test Suite">
+        <testsuite name="Park-Manager Test Suite">
             <directory>src/*/*Bundle/Tests</directory>
             <directory>src/*/Bundle/*Bundle/Tests</directory>
         </testsuite>

@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the ParkManager project.
+ * This file is part of the Park-Manager project.
  *
  * (c) Sebastiaan Stok <s.stok@rollerscapes.net>
  *
@@ -15,7 +15,7 @@ use Symfony\Component\Config\Loader\LoaderInterface;
 use Symfony\Component\HttpKernel\Kernel as BaseKernel;
 
 /**
- * ParkManager base application kernel.
+ * Park-Manager base application kernel.
  */
 abstract class Kernel extends BaseKernel
 {
@@ -28,6 +28,7 @@ abstract class Kernel extends BaseKernel
             new \Symfony\Bundle\MonologBundle\MonologBundle(),
             new \Symfony\Bundle\SwiftmailerBundle\SwiftmailerBundle(),
             new \Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
+            new \Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
         ];
 
         return $bundles;
@@ -53,7 +54,7 @@ abstract class Kernel extends BaseKernel
     public function getCacheDir()
     {
         if ($this->isVagrantEnvironment()) {
-            return '/dev/shm/parkmanager/cache/'.$this->environment;
+            return '/dev/shm/park-manager/cache/'.$this->getEnvironment();
         }
 
         return parent::getCacheDir();
@@ -65,7 +66,7 @@ abstract class Kernel extends BaseKernel
     public function getLogDir()
     {
         if ($this->isVagrantEnvironment()) {
-            return '/dev/shm/parkmanager/logs';
+            return '/dev/shm/park-manager/logs';
         }
 
         return parent::getLogDir();

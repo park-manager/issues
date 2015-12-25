@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the ParkManager project.
+ * This file is part of the Park-Manager project.
  *
  * (c) Sebastiaan Stok <s.stok@rollerscapes.net>
  *
