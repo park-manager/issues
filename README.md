@@ -6,7 +6,7 @@ ParkManager
 **NOT YET READY FOR PRODUCTION! Things may brake from time to time.**
 
 ParkManager is an open source Hosting-software solution for PHP,
-based on the [**Symfony2**](http://symfony.com) framework.
+based on the [**Symfony**](http://symfony.com) framework.
 
 The ultimate goal of this project is to create a Hosting-software solution,
 which is user-friendly, loved by developers and has a helpful community.
@@ -15,7 +15,7 @@ And most of all is safe to use, no hidden back-doors, and secure by design.
 Requirements
 ------------
 
-ParkManager requires at least PHP 5.6, PostgreSQL 9.3 and one or more
+ParkManager requires at least PHP 7, PostgreSQL 9.3 and one or more
 hosting servers for managing.
 
 *For specific hosting features you may need to install additional
