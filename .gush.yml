@@ -20,7 +20,8 @@ table-pr:
     new_feature: ['New Feature?', 'no']
     bc_breaks: ['BC Breaks?', 'no']
     deprecations: ['Deprecations?', 'no']
-    fixed_tickets: ['Fixed Tickets', '']
+    related_issues: ['Fixed Tickets', '']
+    license: ['License', 'MPL-2.0']
 repo_adapter: github
 issue_tracker: github
 repo_org: park-manager
