@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace ParkManager\Core\EntryPoints\Cli;
+namespace ParkManager\Bundle\CoreBundle\EntryPoints\Cli;
 
 use Symfony\Bundle\FrameworkBundle\Console\Application as BaseApplication;
 

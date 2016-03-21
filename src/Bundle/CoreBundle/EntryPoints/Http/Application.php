@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace ParkManager\Core\EntryPoints\Http;
+namespace ParkManager\Bundle\CoreBundle\EntryPoints\Http;
 
 use Aequasi\Environment\Environment;
 use Symfony\Component\HttpFoundation\Request;

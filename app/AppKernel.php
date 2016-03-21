@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-use ParkManager\Core\Kernel;
+use ParkManager\Bundle\CoreBundle\Kernel;
 
 /**
  * Default AppKernel.

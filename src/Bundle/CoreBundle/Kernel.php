@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace ParkManager\Core;
+namespace ParkManager\Bundle\CoreBundle;
 
 use Symfony\Component\Config\Loader\LoaderInterface;
 use Symfony\Component\HttpKernel\Kernel as BaseKernel;

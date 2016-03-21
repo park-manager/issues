@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-use ParkManager\Core\EntryPoints\Http\Application;
+use ParkManager\Bundle\CoreBundle\EntryPoints\Http\Application;
 use Symfony\Component\ClassLoader\ApcClassLoader;
 use Symfony\Component\Debug\Debug;
 
