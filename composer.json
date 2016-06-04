@@ -3,11 +3,12 @@
     "description": "Open-source hosting solution",
     "keywords": ["ftp", "mail", "server", "hosting"],
     "type": "project",
-    "license": "MIT",
+    "license": "MPL-2.0",
     "homepage": "http://www.park-manager.com/",
     "authors": [
         {
             "name": "Sebastiaan Stok",
+            "role": "Project Leader",
             "email": "s.stok@rollercapes.net"
         },
         {
