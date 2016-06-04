@@ -1,5 +1,13 @@
 # Gush configuration file, any comments will be lost.
-meta-header: "This file is part of the Park-Manager project.\n\n(c) Sebastiaan Stok <s.stok@rollerscapes.net>\n\nThis source file is subject to the MIT license that is bundled\nwith this source code in the file LICENSE."
+meta-header: |
+    Copyright (c) the Contributors as noted in the AUTHORS file.
+
+    This file is part of the Park-Manager project.
+
+    This Source Code Form is subject to the terms of the Mozilla Public
+    License, v. 2.0. If a copy of the MPL was not distributed with this
+    file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
 pr_type:
     - minor
     - bug
