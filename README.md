@@ -56,13 +56,9 @@ please read the [Contributing Guidelines][1].
 License
 -------
 
-Park-Manager is provided under the MIT license
-that is bundled with this source code in the file [LICENSE](LICENSE).
-
-[LICENSE](LICENSE)
-
-For using Park-Manager in a commercial setting there are no restrictions
-or subscriptions you need to pay.
+The Source Code of Park-Manager is subject to the terms of the Mozilla Public License, v. 2.0.
+If a copy of the MPL was not distributed with this file, You can obtain one at https://mozilla.org/MPL/2.0/.
+All source code, unless otherwise specified, is released under the MPL v2.
 
 Issue Tracking
 --------------
