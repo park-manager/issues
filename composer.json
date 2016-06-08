@@ -39,6 +39,10 @@
         "sensiolabs/behat-page-object-extension": "~2.0@rc",
         "symfony/phpunit-bridge": "^3.0"
     },
+    "replace": {
+        "symfony/polyfill-php56": "*",
+        "symfony/polyfill-php70": "*"
+    },
     "autoload": {
         "psr-4": {
             "ParkManager\\": "src/"
