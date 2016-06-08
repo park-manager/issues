@@ -30,7 +30,7 @@
         "aequasi/environment": "^2.0"
     },
     "require-dev": {
-        "behat/behat": "^3.0@dev",
+        "behat/behat": "^3.1",
         "behat/symfony2-extension": "^2.1",
         "behat/mink-extension": "^2.1",
         "behat/mink-browserkit-driver": "^1.3",
