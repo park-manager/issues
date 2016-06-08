@@ -12,6 +12,7 @@
 # Files
 *.phar
 phpunit.xml
+.php_cs.cache
 
 # ignore composer.lock as this will change very often
 /composer.lock
