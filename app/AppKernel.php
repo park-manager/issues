@@ -39,7 +39,7 @@ class AppKernel extends Kernel
     public function getCacheDir()
     {
         if ($this->isVagrantEnvironment()) {
-            return '/dev/shm/parkmanager/cache/'.$this->getEnvironment();
+            return '/dev/shm/park-manager/cache/'.$this->getEnvironment();
         }
 
         return dirname(__DIR__).'/var/cache/'.$this->getEnvironment();
