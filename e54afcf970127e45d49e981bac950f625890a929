@@ -1,0 +1,7 @@
+---------------------------------------------------------------------------
+
+by sstok at 2017-05-24T16:49:16Z
+
+~~OK, that doesn't seem to work 😫 I need to add a Symfony Flex recipe for `prooph/service-bus-symfony-bundle` or else this is not going to work.~~
+
+It doesn't fail when running install, this is a tricky one 😐😟
