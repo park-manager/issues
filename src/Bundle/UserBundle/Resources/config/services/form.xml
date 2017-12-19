@@ -8,12 +8,12 @@
             <argument id="translator" type="service" />
             <argument id="router" type="service" />
         </service>
-        <service id="park_manager.form_handler.security.confirm_password_reset" class="ParkManager\Bundle\UserBundle\Form\Handler\ConfirmPasswordResetFormHandler" abstract="true">
+        <service id="park_manager.form_handler.security.confirm_password_reset" class="ParkManager\Bundle\UserBundle\Form\Handler\ConfirmPasswordResetFormHandler" abstract="true" autowire="true">
             <argument id="request_stack" type="service" />
             <argument id="session.flash_bag" type="service" />
             <argument id="translator" type="service" />
             <argument id="router" type="service" />
-            <argument id="ParkManager\Component\User\Security\Argon2iPasswordEncoder" type="service" />
+            <argument id="Symfony\Component\Security\Core\Encoder\Argon2iPasswordEncoder" type="service" />
         </service>
         <service id="park_manager.form_handler.security.change_password" class="ParkManager\Bundle\UserBundle\Form\Handler\ChangePasswordFormHandler" abstract="true">
             <argument id="security.token_storage" type="service" />
@@ -21,7 +21,7 @@
             <argument id="session.flash_bag" type="service" />
             <argument id="translator" type="service" />
             <argument id="router" type="service" />
-            <argument id="ParkManager\Component\User\Security\Argon2iPasswordEncoder" type="service" />
+            <argument id="Symfony\Component\Security\Core\Encoder\Argon2iPasswordEncoder" type="service" />
         </service>
     </services>
 </container>

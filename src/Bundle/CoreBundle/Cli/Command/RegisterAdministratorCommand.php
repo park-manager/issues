@@ -16,12 +16,12 @@ namespace ParkManager\Bundle\CoreBundle\Cli\Command;
 
 use ParkManager\Component\Core\Model\Command\RegisterAdministrator;
 use ParkManager\Component\User\Model\UserId;
-use ParkManager\Component\User\Security\Argon2iPasswordEncoder;
 use Prooph\ServiceBus\CommandBus;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Style\SymfonyStyle;
+use Symfony\Component\Security\Core\Encoder\Argon2iPasswordEncoder;
 use Symfony\Component\Validator\Constraints\{Email, NotBlank};
 use Symfony\Component\Validator\Validator\ValidatorInterface;
 

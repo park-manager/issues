@@ -1,7 +1,7 @@
 security:
     encoders:
         'ParkManager\Bundle\CoreBundle\Security\AdministratorSecurityUser':
-            id: 'ParkManager\Component\User\Security\Argon2iPasswordEncoder'
+            algorithm: argon2i
 
     providers:
         administrator:

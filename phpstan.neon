@@ -36,8 +36,6 @@ parameters:
         #- '#Call to an undefined method PommProject\\ModelManager\\Model\\Model\:\:findByPK\(\)#'
 
         # Sodium
-        - '#Function sodium_[^\s]+ not found.#'
-        - '#(Function|Constant) (SODIUM|sodium)_[^\s]+ not found.#'
         - '#Function Sodium\\memzero invoked with 1 parameter, 2 required#' # No idea why this is reported.
 
         # False positive https://github.com/phpstan/phpstan/issues/207
