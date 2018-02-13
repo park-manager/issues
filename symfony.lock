@@ -68,6 +68,9 @@
     "icomefromthenet/reverse-regex": {
         "version": "v0.0.6.3"
     },
+    "infection/infection": {
+        "version": "0.7.1"
+    },
     "jdorn/sql-formatter": {
         "version": "v1.2.17"
     },
@@ -98,8 +101,17 @@
     "myclabs/deep-copy": {
         "version": "1.7.0"
     },
+    "nikic/php-parser": {
+        "version": "v3.1.4"
+    },
     "ocramius/proxy-manager": {
         "version": "2.1.1"
+    },
+    "padraic/humbug_get_contents": {
+        "version": "1.0.4"
+    },
+    "padraic/phar-updater": {
+        "version": "1.0.4"
     },
     "paragonie/constant_time_encoding": {
         "version": "v2.2.0"
@@ -151,6 +163,9 @@
     },
     "phpunit/phpunit-mock-objects": {
         "version": "4.0.4"
+    },
+    "pimple/pimple": {
+        "version": "v3.2.3"
     },
     "psr/cache": {
         "version": "1.0.1"

@@ -33,7 +33,7 @@ final class CliGuard implements PermissionGuard
 
     public function decide(object $message): int
     {
-        if (PHP_SAPI === 'cli' && null === $this->tokenStorage->getToken()) {
+        if ((PHP_SAPI === 'cli' || PHP_SAPI === 'phpdbg') && null === $this->tokenStorage->getToken()) {
             return self::PERMISSION_ALLOW;
         }
 

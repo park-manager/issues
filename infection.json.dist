@@ -1,0 +1,19 @@
+{
+    "timeout": 25,
+    "source": {
+        "directories": [
+            "src"
+        ],
+        "exclude": [
+            "Component\/*\/Test",
+            "Component\/*\/Tests",
+            "Bridge\/*\/Test",
+            "Bridge\/*\/Tests",
+            "Bundle\/*Bundle\/Tests",
+            "Module\/*\/Tests"
+        ]
+    },
+    "logs": {
+        "text": "infection-log.txt"
+    }
+}

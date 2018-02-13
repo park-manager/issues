@@ -55,7 +55,7 @@
                 <directory>vendor/</directory>
                 <directory>templates/</directory>
                 <directory>translations/</directory>
-                <directory>web/</directory>
+                <directory>public/</directory>
                 <directory>var/</directory>
                 <directory>etc/</directory>
                 <directory>config/</directory>
