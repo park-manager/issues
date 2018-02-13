@@ -10,7 +10,8 @@
             "Bridge\/*\/Test",
             "Bridge\/*\/Tests",
             "Bundle\/*Bundle\/Tests",
-            "Module\/*\/Tests"
+            "Module\/*\/Tests",
+            "Bridge/ServiceBus/Guard/CliGuard.php"
         ]
     },
     "logs": {
