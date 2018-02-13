@@ -12,3 +12,4 @@ phpunit.xml
 .php_cs.cache
 .php_cs
 vendor-bin/*/vendor/*
+infection-log.txt
