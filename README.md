@@ -1,3 +1,5 @@
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fpark-manager%2Fpark-manager.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fpark-manager%2Fpark-manager?ref=badge_shield)
+
 Park-Manager
 ============
 
@@ -77,3 +79,7 @@ the Park-Manager [contributors][10].
 [8]: https://github.com/park-manager/park-manager/blob/master/CODE_OF_CONDUCT.md
 [9]: https://github.com/sstok
 [10]: https://github.com/park-manager/park-manager/blob/master/AUTHORS
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fpark-manager%2Fpark-manager.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fpark-manager%2Fpark-manager?ref=badge_large)
