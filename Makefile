@@ -22,6 +22,7 @@ composer-validate: ensure
 	@for direc in $$(gfind src -mindepth 2 -type f -name composer.json -printf '%h\n'); \
 	do \
 		sh -c "${QA_DOCKER_COMMAND} composer validate --working-dir=$${direc}"; \
+		sh -c "${QA_DOCKER_COMMAND} composer normalize --working-dir=$${direc}"; \
 	done;
 
 #	@for direc in $$(gfind src -mindepth 2 -type f -name composer.json -printf '%h\n'); \
